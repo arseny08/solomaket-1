@@ -1,0 +1,69 @@
+@media (max-width: 1820px) {
+    .track-form-textarea {
+        padding-right: 326px;
+    }
+}
+@media (min-width: 1641px) {
+    .offer-card {
+        margin-right: 15px;
+    }
+}
+@media (max-width: 1760px) {
+    .track-form-textarea {
+        padding-right: 226px;
+    }
+    .header {
+        background: #F6F8FF url("img/header-img.png") no-repeat top 57px right -100px;
+    }
+    .offer-card-title-small {
+        font-size: 17px
+    }
+}
+@media (max-width: 1640px) {
+    .track-form-textarea {
+        padding-right: 126px;
+    }
+    .header {
+        background: #F6F8FF url("img/header-img.png") no-repeat top 57px right -200px;
+    }
+    .offer-card-block {
+        flex-flow: row wrap;
+    }
+    .offer-card {
+        margin: 10px 70px;
+    }
+
+
+}
+@media (max-width: 1520px) {
+    .track-form-textarea {
+        padding-right: 26px;
+    }
+    .header-text-big {
+        font-size: 62px;
+        line-height: 98px;
+    }
+    .header-text-small {
+        font-size: 20px;
+        line-height: 35px;
+    }
+    .discount-block-title {
+        font-size: 42px;
+        line-height: 68px;
+    }
+    .discount-block-text-small {
+        font-size: 20px;
+        line-height: 35px;
+    }
+}
+@media (max-width: 1420px) {
+    .track-form-textarea {
+        margin-right: 50px;
+    }
+    #track {
+    padding:31px 50px;
+    }
+    .nav-list {
+        margin-left: 10px;
+    }
+}
