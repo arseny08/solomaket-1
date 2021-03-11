@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing:border-box;
 }
 body {
     font-family: 'Poppins', sans-serif;
@@ -70,6 +71,9 @@ body {
     font-size: 20px;
     line-height: 30px;
     color: #172F53;
+}
+.icon {
+    display: none;
 }
 .sign-link {
     text-decoration: none;
@@ -166,6 +170,7 @@ body {
     cursor: pointer;
 }
 .button.create-account {
+    margin-top: 65px;
     padding: 31px 71px;
 }
 .button-vector {
@@ -227,49 +232,18 @@ body {
 }
 
 
-
-
-
-
-
 .discount-block {
     margin-top: 168px;
     display: flex;
     justify-content: space-between;
     margin-right: 20px;
 }
-.discount-block-title {
-    font-weight: bold;
-    font-size: 52px;
-    line-height: 78px;
-    color: #172F53;
 
-}
-.discount-block-text-small {
-    font-size: 30px;
-    line-height: 45px;
-    color: #7D7D7D;
-    margin-bottom: 65px;
-}
 .discount-block-text {
     margin-bottom: 178px;
 }
-
-
-.partnership-block-title-small {
-    font-weight: 500;
-    font-size: 30px;
-    line-height: 45px;
-    color: #A9A9A9;
-    text-align: center;
-}
-.partnership-block-title {
-    font-weight: bold;
-    font-size: 52px;
-    line-height: 78px;
-    color: #172F53;
-    text-align: center;
-    margin-bottom: 94px;
+.discount-title {
+    margin-bottom: 45px;
 }
 .partnership-block-logo {
     box-sizing: content-box;
@@ -282,9 +256,12 @@ body {
     align-items: center;
 }
 .partnership-block {
+   
     margin-bottom: 185px;
 }
-
+.partnership-title {
+    margin-bottom: 30px;
+}
 
 
 
@@ -316,7 +293,7 @@ body {
     line-height: 37px;
     color: #FFFFFF;
 }
-#prod {
+.prod {
     font-weight: 600;
 }
 .download {
